@@ -13,3 +13,5 @@ add_subdirectory(src)
 add_subdirectory(test)
 
 add_executable(project ${SOURCES})
+
+target_link_libraries(project ${LIBS})
