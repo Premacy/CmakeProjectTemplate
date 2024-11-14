@@ -9,7 +9,7 @@ set(CMAKE_INSTALL_PREFIX ${PROJECT_SOURCE_DIR})
 
 set(SOURCES main.cpp)
 
-include_dicertories(${PATH_TO_DIRS})
+include_directories(${PATH_TO_DIRS})
 
 add_subdirectory(src)
 add_subdirectory(test)
