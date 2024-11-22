@@ -10,6 +10,7 @@ set(CMAKE_INSTALL_PREFIX ${PROJECT_SOURCE_DIR})
 
 set(SOURCES main.cpp)
 
+set(PATH_TO_DIRS ${CMAKE_SOURCE_DIR})
 include_directories(${PATH_TO_DIRS})
 
 add_subdirectory(src)
