@@ -9,6 +9,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++20 -O3")
 set(CMAKE_INSTALL_PREFIX ${PROJECT_SOURCE_DIR})
 
 set(SOURCES main.cpp)
+set(LIBS libs/loblig.a)
 
 set(PATH_TO_DIRS ${CMAKE_SOURCE_DIR})
 include_directories(${PATH_TO_DIRS})
